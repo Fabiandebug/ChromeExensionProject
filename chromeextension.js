@@ -5,10 +5,7 @@ let ulEl = document.getElementById("ul-el")
 let container = document.getElementById("container")
 let createEl = document.getElementById("create-el")
 
-// localStorage.setItem("myleads", "evans")
 
-console.log(localStorage.getItem("myleads"))
-localStorage.clear()
 // Using event listeners and functions 
 // Using innerhtml to modify dom
 
