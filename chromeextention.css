@@ -18,7 +18,7 @@ input {
 }
 
 button {
-    border: none;
+    border: 1px solid #5f9341;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #5f9341;
@@ -30,12 +30,28 @@ button {
 
 }
 
+#delete-btn {
+    color: #5f9341;
+
+    background-color: white;
+
+}
+
+#delete-btn:hover {
+    background-color: #5f9341;
+    color: white;
+}
+
+#delete-btn:active {
+    background-color: darkgreen;
+}
+
 button:hover {
     background-color: darkgreen;
 }
 
 button:active {
-    background-color: lightgreen;
+    background-color: #5f9341;
 }
 
 ul {
